@@ -1,0 +1,2 @@
+class PromptTruncationWarning(Warning):
+    pass
