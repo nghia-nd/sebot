@@ -21,4 +21,4 @@ python cli.py
 ```
 
 ### Training scripts
-All the code for the training process resides in the `rlhf/` directory. Use the `training.ipynb` notebook to replicate the training process. Using sample implementation from the HuggingFace (*trl*)[https://github.com/huggingface/trl] library and made some modifications/simplifications to the training process.
+All the code for the training process resides in the `rlhf/` directory. Use the `training.ipynb` notebook to replicate the training process. Using sample implementation from the HuggingFace [*trl*](https://github.com/huggingface/trl) library and made some modifications/simplifications to the training process.
