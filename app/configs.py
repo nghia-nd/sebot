@@ -3,10 +3,6 @@ from typing import Dict
 from pydantic import BaseModel, Field, model_validator
 
 
-class AppConfig:
-    pass
-
-
 class LLMConfig(BaseModel):
     root_path: str = 'llm/opt-125m'
 
@@ -31,6 +27,5 @@ class GenerationConfig(BaseModel):
             raise ValueError('max_new_tokens must be at least equals min_new_tokens')
 
 
-app_config = AppConfig()
 llm_config = LLMConfig()
 generation_config = GenerationConfig()
