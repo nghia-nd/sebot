@@ -1,4 +1,4 @@
-# StackExchange Bot
+# Elevate LLMs and RLHF for StackExchange Chatbot
 Through this project, we create a simple chatbot API by fine-tuning and training the OPT-1.3b model by applying reinforcement learning with human feedback (RLHF) on the StackExchange dataset and deploying it onto a remote backend server.
 
 ## Structure
